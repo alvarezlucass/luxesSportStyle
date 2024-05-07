@@ -1,57 +1,133 @@
+.body_home{
+  background-color:black;
+  font-size: 20px;
+}
 
 body{
-    background-color: #fff;
-    font-size: 20px;
-    width: 100%;
-    margin: 0px;
+  background-color: #fff;
+  font-size: 20px;
+  width: 100%;
+  margin: 0px;
 }
 nav {
-    list-style-type: none;
-    margin: 0.30;
-    padding: 0.10;
-    overflow: hidden;
-    background-color: black;
-  }
-  
- 
-  li {
-    float: left;
-  }
-  
-  li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  
+  list-style-type: none;
+  margin: 0.30;
+  padding: 0.10;
+  overflow: hidden;
+  background-color: black;
+}
 
-  .img_logo_nav{
-    width: 3.5%;
-    border-radius: 50%;  
-    box-shadow: 0px  0px 10px  rgb(238, 239, 239); 
-    margin-top: auto;
-  }
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.img_logo_nav{
+  width: 3.5%;
+  border-radius: 50%;  
+  box-shadow: 0px  0px 10px  rgb(238, 239, 239); 
+  margin-top: auto;
+}
 
 
 .contenedor{
-    position:relative;
-    padding: 15px;
+  position:relative;
+  padding: 15px;
 }
-/*Contacto*/
-.body_contacto{
-    background-color: #ffffffe2;
+/*primera imagen*/
+.primerimagen{
+  width: 100%;
+  height: 580PX;
+  filter: brightness(50%);
+ 
 }
-/*Titulo completa tus datos*/
-.header{
-    color: #087fe7;
-    font-size: 27px;
-    padding: 10px;
+
+
+.parrafo{
+  color: white;
+  position:absolute;
+  right: 50px;
+  bottom: 140px;
 }
-/*formato form*/
+
+.card .h-100{
+  width: 100%;
+  height: 100%;   
+}
+
+.container-fluid{
+  width: 100%;
+  height: 50%;
+  position:relative;
+  padding: 15px;  
+  }
+
+/*FOOTER*/
+
+.section-footer {
+  width: 100%;
+   background-color: black;
+  color: #fff; 
+    }
+    
+    .footer-nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-nav ul li {
+      text-align: center;
+      list-style: none;
+      padding: 0.5rem 0;
+   
+    }
+    
+    .footer-nav ul li a {
+       text-align: center;
+       text-decoration: none;
+      color: #fff;
+      
+    }
+          
+    .legel {
+      border-top: 2px solid #fff;
+      padding: 1.5rem 0;
+      grid-column: 1/-1;
+      text-align: center;
+    }
+    
+   .img_footer{
+      width: 35px;
+      height: 35px;
+   } 
+  .newsletter__input{
+      margin: 10px;
+     
+  }
+
+
+  /*Contacto*/
+ .body_contacto{
+  background-color: #ffffffe2;
+ }
+
+ .header {
+  color: #087fe7;
+  font-size: 27px;
+  padding: 10px;
+}
+
 .form-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
